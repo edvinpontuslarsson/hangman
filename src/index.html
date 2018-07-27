@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hangman Game</title>
+    <link rel="stylesheet" href="css/hangman-style.css"/>
+</head>
+<body>
+
+<h1>Hangman</h1>
+
+<div id="hangman-space"></div>
+
+<template id="hangmanInstructions">
+        <div class="hangmanInstructions">
+            <h3>Instructions</h3>
+            <p>Click on the correct letters of the words to 
+            avoid getting hanged.</p>
+            <p><b>Fill in your nickname here:</b></p>
+            <p><input class="hangNick" type="text"></p>
+            <p><input class="hangStartBtn" type="submit" value="Start!"></p>
+        </div>
+</template>
+
+<script src="https://cdn.rawgit.com/yahoo/xss-filters/master/dist/xss-filters.js"></script>
+<script src="build.js"></script>
+</body>
+</html>

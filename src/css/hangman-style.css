@@ -1,0 +1,51 @@
+html, body, div {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background: #849644;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+h1 {
+    text-align: center;
+}
+#hangman-space {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 800px;
+    background:#002418;
+    color: white;
+    padding: 15px;
+    border:6px solid #9b3b00;
+    border-bottom:12px solid #9b3b00;
+    border-radius: 3px;
+    height: 600px;
+}
+img {
+    float: right;
+    height: 500px;
+}
+.letter {
+    padding: 2px;
+    display: inline;
+}
+.letter input {
+    color: #002418;
+    font-weight: bold;
+    cursor: pointer;
+}
+.hide {
+    visibility: hidden;
+}
+.word-space {
+    padding-top: 75px;
+ }
+ .solvedWords {
+     padding-top: 100px;
+ }
+ .againHangButton {
+    margin-top: 15px;
+}
